@@ -1,25 +1,91 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>Personal Website</title>
+    <title>JPhotography</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
-  
-</header>
-  
-<section>
-<p style="font-size: 100px;">
-  hello if you read this you are gay
-</p>
-</section>
 
-<footer>
-  
-</footer>
-  
+    <!-- FRAME SECTION -->
+    <img src="frame1.png" alt="top left frame" class="position-fixed top-0 start-0" draggable="false" style="z-index: 999;">
+    <img src="frame2.png" alt="top right frame" class="position-fixed top-0 end-0" draggable="false" style="z-index: 999;">
+    <img src="frame3.png" alt="bottom right frame" class="position-fixed bottom-0 end-0" draggable="false" style="z-index: 999;">
+    <img src="frame4.png" alt="bottom left frame" class="position-fixed bottom-0 start-0" draggable="false" style="z-index: 999;">
+        
+    <!-- HEADER SECTION -->
+        <!-- HEADER NAVBAR SECTION -->
+    <header class="bg-light py-4 px-5 d-flex justify-content-between align-items-center mb-3" >
+        <h1 class="fw-bold">JPhotography</h1>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#HOME">HOME</a> </li>
+                <li class="nav-item"> <a class="nav-link text-black" href="#ABOUTME">ABOUT ME</a></li>
+                <li class="nav-item"> <a class="nav-link text-dark" href="#PORTFOLIO">PORTFOLIO</a></li>
+                <li class="nav-item"> <a class="nav-link text-dark" href="#CONTACT">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <h1 class="fw-bold fs-1 pt-5 text-center">Hi. Hello.. I Am JohnDas...! <br> I Travel Around The World To Get The Best Photos.!</h1>
+            <div id="Transparent">AWARD WINNING PHOTOGRAPHER / CINEMATOGRAPHER / WRITER</div>
+
+        <!-- IMAGE NAVBAR SECTION -->
+        <div class="d-flex justify-content-center align-items-center fs-5 gap-3">
+            <nav>
+                <ul class="nav justify-content-center">
+                    <li> <a class="nav-link active" aria-current="page" href="#All">All</a> </li>
+                    <li> <a class="nav-link text-dark" href="#Landscape">Landscape</a> </li>
+                    <li> <a class="nav-link text-dark" href="#Portrait">Portrait</a> </li>
+                    <li> <a class="nav-link text-dark" href="#Product">Product</a> </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- GALLERY SECTION -->
+        <div class="gallery mt-4">
+            <img src="img9.jpg" alt="top-left image">
+            <img src="img10.png" alt="top left middle-image">
+            <img src="img11.jpg" alt="top right middle-image">
+            <img src="img12.jpg" alt="top-right image">
+            <img src="img1.png" alt="top middle leftmost-image">
+            <img src="img2.png" alt="top middle left-image">
+            <img src="img3.png" alt="top middle right-image">
+            <img src="img4.png" alt="top middle rightmost-image">
+            <img src="img5.png" alt="bottom middle leftmost-image">
+            <img src="img6.png" alt="bottom middle left-image">
+            <img src="img7.png" alt="bottom middle right-image">
+            <img src="img8.png" alt="bottom middle rightmost-image">
+            <img src="img13.jpg" alt="bottom-left image">
+            <img src="img14.jpg" alt="bottom left middle-image">
+            <img src="img15.jpg" alt="bottom right middle-image">
+            <img src="img16.jpg" alt="bottom-right image">
+        </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h2 class="FooterName">JPhotography</h2>
+            <h3 class="Copyright">© Copyrights 2019 All Rights Reserved</h3>
+            <a href="https://www.dribbble.com/"> <img src="dribble.png" alt="leftmost icon 1-dribble"> </a>
+            <a href="https://www.behance.net/"> <img src="behance.png" alt="left icon 2-behance"> </a>
+            <a href="https://www.instagram.com/"> <img src="instagram.png" alt="middle left icon 3-instagram"> </a>
+            <a href="https://www.500px.com/"> <img src="500px.png" alt="middle icon 4-deviantart"> </a>
+            <a href="https://www.flickr.com/"> <img src="flickr.png" alt="middle right icon 5-flickr"> </a>
+            <a href="https://www.facebook.com/"> <img src="facebook.png" alt="right icon 6-facebook"> </a>
+            <a href="https://www.twitter.com/"> <img src="twitter.png" alt="rightmost icon 7-twitter"> </a>
+        </div>
+    </footer>
+    
 </body>
-  
+
 </html>
