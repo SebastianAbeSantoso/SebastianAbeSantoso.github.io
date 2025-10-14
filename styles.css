@@ -1,1 +1,70 @@
+/* === GLOBAL STYLES === */
+body, h1, header, footer, nav {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    position: relative;
+}
 
+/* === HEADER STYLES === */
+.nav-link.active {
+    background-color: rgba(215, 215, 215, 0.3);
+    font-weight: bold;
+    border-radius: 32px;
+    color: black; 
+    outline: 2px solid black;
+}
+
+/* === MAIN HEADING SECTION === */
+#Transparent {
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    color: rgba(0,0,0,0.3);
+    letter-spacing: 5px;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+/* === GALLERY SECTION === */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.gallery img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+/* === FOOTER SECTION === */
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer img {
+    max-width: 30px;
+    opacity: 0.3;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    vertical-align: middle;
+    margin-bottom: 10vw;
+}
+
+.FooterName {
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+    font-size: clamp(1.8rem, 3vw, 3.75rem);
+    margin-top: 10vw;
+}
+
+.Copyright {
+    color: rgba(0,0,0,0.3);
+    letter-spacing: 2px;
+    font-size: clamp(0.9rem, 1.5vw, 1.8rem);
+}
